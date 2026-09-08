@@ -111,9 +111,9 @@ for index, name in enumerate(names_ankit):
     print(f'Position {index+1}: {name}')
 
 # 15 Calculate the sum of all even numbers from 1 to 50 using range().
-sum_even=0
+sum_even_ankit=0
 for i in range(1,51):
     if i%2==0:
         print(f'{i} is even number')
-        sum_even+=i
-print(f'The sum of all even numbers from 1 to 50 is {sum_even}')
+        sum_even_ankit+=i
+print(f'The sum of all even numbers from 1 to 50 is {sum_even_ankit}')
