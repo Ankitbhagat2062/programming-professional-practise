@@ -104,5 +104,16 @@ else:
 # 13 Print the multiplication table for any number (1 to 10) using a for loop.
 for i in range(1,11):
     print(f'5 x {i} = {5*i}')
+
 # 14 Loop through a list of 5 names and print each with its position (use enumerate).
+names_ankit=['Ankit','Rohit','Saurabh','Ramesh','Rakesh']
+for index, name in enumerate(names_ankit):
+    print(f'Position {index+1}: {name}')
+
 # 15 Calculate the sum of all even numbers from 1 to 50 using range().
+sum_even=0
+for i in range(1,51):
+    if i%2==0:
+        print(f'{i} is even number')
+        sum_even+=i
+print(f'The sum of all even numbers from 1 to 50 is {sum_even}')
