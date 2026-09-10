@@ -124,13 +124,63 @@ print(isinstance(p1,Phone))
 ```
 # Create a Color class with a name attribute. Create two objects, change one's name, and print both to confirm they are independent.
 ```
+# 1. Color class
 class Color:
-     name="ankit"
-     
+    def __init__(self, name):
+        self.name = name
+
+color1 = Color("ankit")
+color2 = Color("blue")
+
+color1.name = "red"
+
+print("Color 1:", color1.name)
+print("Color 2:", color2.name)
+
 ```
 
-Create a Book class. Create two book objects and give each a title, author, and pages attribute. Print them all.
+# Create a Book class. Create two book objects and give each a title, author, and pages attribute. Print them all.
+```
+class Book:
+    def __init__(self, title, author, pages):
+        self.title = title
+        self.author = author
+        self.pages = pages
 
-Create a Pet class, create an object, set its name and age, then modify the age and print before and after.
+book1 = Book("Python Basics", "Ankit", 250)
+book2 = Book("The Alchemist", "Paulo Coelho", 208)
 
-Create a Product class with two objects. Give each a name, price, and quantity. Print the total value (price times quantity) for each
+print(book1.title, book1.author, book1.pages)
+print(book2.title, book2.author, book2.pages)
+```
+
+# Create a Pet class, create an object, set its name and age, then modify the age and print before and after.
+```
+class Pet:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+pet1 = Pet("Tommy", 2)
+
+print("Before age change:", pet1.name, pet1.age)
+
+pet1.age = 3
+
+print("After age change:", pet1.name, pet1.age)
+```
+     
+# Create a Product class with two objects. Give each a name, price, and quantity. Print the total value (price times quantity) for each
+```
+class Product:
+    def __init__(self, name, price, quantity):
+        self.name = name
+        self.price = price
+        self.quantity = quantity
+
+product1 = Product("Laptop", 80000, 2)
+product2 = Product("Mouse", 1500, 3)
+
+print(product1.name, "total value:", product1.price * product1.quantity)
+print(product2.name, "total value:", product2.price * product2.quantity)
+```
