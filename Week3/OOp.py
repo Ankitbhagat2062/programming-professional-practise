@@ -1,3 +1,4 @@
+#%% 
 class Dog:
     name="max"
     age="1"

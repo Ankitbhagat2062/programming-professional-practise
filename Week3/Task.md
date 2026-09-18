@@ -4,18 +4,17 @@
 
 # Q2 Name three real-world objects and list two attributes and two behaviors for each.
 ## The 3 real world objects are :- 
-Object: Car
+## Object: Car
+ - Attributes: color, make, model, year
+ - Behaviors: start_engine(), accelerate(), brake(), turn()
 
-Attributes: color, make, model, year
-Behaviors: start_engine(), accelerate(), brake(), turn()
-Object: Smartphone
+## Object: Smartphone
+- Attributes: brand, model, operating_system, screen_size
+- Behaviors: make_call(), send_text(), take_photo(), browse_internet()
 
-Attributes: brand, model, operating_system, screen_size
-Behaviors: make_call(), send_text(), take_photo(), browse_internet()
-Object: Dog
-
-Attributes: breed, age, name, color
-Behaviors: bark(), eat(), sleep(), fetch()
+## Object: Dog
+- Attributes: breed, age, name, color
+- Behaviors: bark(), eat(), sleep(), fetch()
 
 # Q3 Take the procedural student example above and add a third student. Then think about how the OOP version would handle it.
 # Procedural Student Example
